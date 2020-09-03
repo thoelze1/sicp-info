@@ -9036,7 +9036,7 @@ some examples of its behavior:
 @i{(+ (* x 0) (* 1 y))}
 
 (deriv '(* (* x y) (+ x 3)) 'x)
-   @i{(+ (* (* x y) (+ 1 0))}
+@i{(+ (* (* x y) (+ 1 0))}
    @i{(* (+ (* x 0) (* 1 y))}
       @i{(+  x 3)))}
 @end lisp
@@ -10247,7 +10247,7 @@ plane.
  Imaginary
     ^
     |
-  y |.........................* z = x + ?y = r e^(?A)
+  y |.........................* z = x + iy = r e^(iA)
     |                    __-- .
     |                __--     .
     |          r __--         .
@@ -11774,7 +11774,7 @@ as compound ``types,'' which are often useful for directing the processing of
 expressions.  For example, we could describe the expression
 
 @example
-x^2 sin (y^2 + 1) + r cos 2y + cos(y^3 - 2y^2)
+x^2 sin (y^2 + 1) + x cos 2y + cos(y^3 - 2y^2)
 @end example
 
 @noindent
@@ -11806,14 +11806,14 @@ algebraic expression that is not dependent upon the indeterminate of the
 polynomial.  For example,
 
 @example
-5x^2 + 3r + 7
+5x^2 + 3x + 7
 @end example
 
 @noindent
 is a simple polynomial in @i{x}, and
 
 @example
-(y^2 + 1)r^3 + (2y)x + 1
+(y^2 + 1)x^3 + (2y)x + 1
 @end example
 
 @noindent
