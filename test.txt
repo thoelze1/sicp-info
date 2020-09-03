@@ -1,0 +1,7 @@
+define(`newterm',`@nt{patsubst(`$1',`
+',` ')}')
+
+newterm(test
+ ing)
+
+@newterm
